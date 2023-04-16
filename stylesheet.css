@@ -1,0 +1,148 @@
+/* CSS Document */
+
+html {
+    background: #f8f8f8;
+}
+
+body {
+    color: #464646;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    background: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+a {
+    color: #e14d43;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input[type=text],
+input[type=password],
+textarea {
+    font-size: 13px;
+    color: #666;
+    padding: 6px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    outline: none;
+    width: 95%;
+    max-width: 460px;
+    box-sizing: border-box;
+}
+
+input[type=submit],
+button {
+    background-color: #e14d43;
+    color: #fff;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 6px 20px;
+}
+
+input[type=submit]:hover,
+button:hover {
+    background-color: #d1483e;
+}
+
+input[type=file] {
+    font-size: 13px;
+    color: #666;
+    border: 1px solid #999;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    outline: none;
+    width: 95%;
+    max-width: 460px;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 6px;
+}
+
+input[type=range] {
+    width: 90%;
+    max-width: 460px;
+}
+
+select {
+    font-size: 13px;
+    color: #666;
+    padding: 6px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    outline: none;
+    width: 95%;
+    max-width: 460px;
+    box-sizing: border-box;
+    background-color: #fff;
+    background: url(../images/select-arrow.png) no-repeat right #fff;
+    -webkit-background-size: 14px 14px;
+    -moz-background-size: 14px 14px;
+    background-size: 14px 14px;
+}
+
+.form {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.form td {
+    border-bottom: 1px solid #c3c3c3;
+    padding: 5px 10px;
+}
+
+.form td:first-child {
+    font-weight: bold;
+    text-align: right;
+    width: 50%;
+}
+
+.form td:last-child {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+table#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+table#customers td,
+table#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
